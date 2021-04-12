@@ -17,9 +17,28 @@ class ViewController: UIViewController {
         sender.isEnabled = false
     }
     
+    var listOfWords = ["buccaneer", "swift", "glorious", "incandescent", "bug", "program"]
+    var currentGame: Game!
+    var totalWins = 0
+    var totalLosses = 0
+    let incorrectMovesAllowed = 7
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        newRound()
+    }
+    
+    func newRound() {
+        let newWord = listOfWords.removeFirst()
+        
+        currentGame = Game(word: newWord, incorrectMovesRemaining: incorrectMovesAllowed)
+        updateUI()
+    }
+    
+    func updateUI() {
+        scoreLabel.text = "Wins: \(totalWins), Losses: \(totalLosses)"
+        treeImageView.image = UIImage(named: "Tree \(currentGame.incorrectMovesRemaining)")
     }
 
 

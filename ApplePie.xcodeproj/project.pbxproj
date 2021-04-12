@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350256322624CB5900A40D4A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350256312624CB5900A40D4A /* Game.swift */; };
 		354C596C261F1B9000157920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354C596B261F1B9000157920 /* AppDelegate.swift */; };
 		354C596E261F1B9000157920 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354C596D261F1B9000157920 /* SceneDelegate.swift */; };
 		354C5970261F1B9000157920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354C596F261F1B9000157920 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		350256312624CB5900A40D4A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		354C5968261F1B9000157920 /* ApplePie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplePie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		354C596B261F1B9000157920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		354C596D261F1B9000157920 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				354C596B261F1B9000157920 /* AppDelegate.swift */,
 				354C596D261F1B9000157920 /* SceneDelegate.swift */,
+				350256312624CB5900A40D4A /* Game.swift */,
 				354C596F261F1B9000157920 /* ViewController.swift */,
 				354C5971261F1B9000157920 /* Main.storyboard */,
 				354C5974261F1B9200157920 /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 				354C5970261F1B9000157920 /* ViewController.swift in Sources */,
 				354C596C261F1B9000157920 /* AppDelegate.swift in Sources */,
 				354C596E261F1B9000157920 /* SceneDelegate.swift in Sources */,
+				350256322624CB5900A40D4A /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
